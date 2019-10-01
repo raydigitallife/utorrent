@@ -1,4 +1,4 @@
-version: '3.3'
+version: '3'
 
 services:
    utserver:
@@ -8,3 +8,5 @@ services:
        - "6881:6881/tcp"  
        - "6881:6881/udp"  
      restart: always
+     volumes:
+       - /home/ubuntu/:/ut/share:rw
