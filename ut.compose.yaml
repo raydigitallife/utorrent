@@ -4,10 +4,7 @@ services:
    utserver:
      image: raydigitallife/utorrent:20191001
      ports:
-       - "8080:8080"
-       - "6881:6881"  
+       - "8080:8080/tcp"
+       - "6881:6881/tcp"  
+       - "6881:6881/udp"  
      restart: always
-     volumes:
-      - share: /ut/share
-   volumes:
-        share: /tmp/aabb
