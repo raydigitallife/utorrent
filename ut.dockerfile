@@ -1,7 +1,8 @@
-# 2019.09.27
+# 2019.10.01
 # µTorrent Server for Debian 7.0
 # Debian 7.0 - 64-bit (2.15 MB)
 # English (US) - September 4, 2019
+
 # docker run -d -p 8080 -p 6881 --name ut-server --restart=always -v /localhost/volume:/ut/share &
 # http://YOUR-IP:8080/gui
 # admin NO password
