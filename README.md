@@ -13,10 +13,11 @@ Login to http://YOUR-IP:8080/gui/
 
 ## History
 
-|ver | description |
-|:--- |:--- |
-|20191001 | OS ubuntu-16.04 |
-|debian-711 | OS  debian 7.11 |
+|ver | description | note |
+|:--- |:--- |:--- 
+|2020-v1 | OS ubuntu-16.04 | 加入NAS container 的常用設定，包進 settings.dat 檔案 |
+|20191001 | OS ubuntu-16.04 | 原始 utorrent-server 的檔案 |
+|debian-711 | OS  debian 7.11 | 原始 utorrent-server 的檔案 |
 
 ## Run docker Command
 
@@ -43,4 +44,3 @@ docker-compose -f ut.compose.yaml up -d
 docker-compose -f ut.compose.yaml down
 
 ```
-
