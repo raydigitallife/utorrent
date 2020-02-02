@@ -1,8 +1,9 @@
+# QNAP NAS Containcer 
 version: '3'
 
 services:
    utserver:
-     image: raydigitallife/utorrent:20191001
+     image: raydigitallife/utorrent:2020-v2
      ports:
        - "8080:8080/tcp"
        - "6881:6881/tcp"  
