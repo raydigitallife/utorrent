@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  utserver:
+     image: raydigitallife/utorrent:2020-v4
+     deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 4096M
+        reservations:
+          cpus: '0.25'
+          memory: 1024M
+     container_name: utserver
+     restart: always
+     ports:
+       - "8999:8080/tcp"
+       - "6881:6881/tcp"
+       - "6881:6881/udp"
+     volumes:
+        - "/share/Video/#ut:/ut/share"
