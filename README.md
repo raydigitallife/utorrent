@@ -15,6 +15,7 @@ Login to http://YOUR-IP:8080/gui/
 
 |ver | description | note |
 |:--- |:--- |:--- 
+|2020-v4 | ubuntu-16.04 | 例行更新|
 |2020-v2 | ubuntu-16.04 | 加入 NAS container 的個人設定 settings.dat 下載檔案的語系問題已經解決 |
 |2020-v1 | ubuntu-16.04 | 加入 NAS container 的個人設定 settings.dat |
 |20191001 | ubuntu-16.04 | 原始 utorrent-server 的檔案 |
